@@ -56,7 +56,6 @@ pre_install_hook () {
 	opts_a+=( --root="${install_dir}" )
 	opts_a+=( --prefix="${HALCYON_BASE}" )
 	opts_a+=( --constraints="${magic_dir}/constraints" )
-	opts_a+=( --sandbox-sources="${magic_dir}/sandbox-sources" )
 	opts_a+=( --sandbox-extra-apps="${magic_dir}/sandbox-extra-apps" )
 	opts_a+=( --sandbox-extra-apps-constraints="${magic_dir}/sandbox-extra-apps-constraints" )
 
